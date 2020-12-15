@@ -33,7 +33,7 @@ jobs:
       - name: Fetching Local Repository
         uses: actions/checkout@master
       - name: Auto Create Collabs
-        uses: kbrashears5/github-action-auto-create-collabs@v2.0.0
+        uses: kbrashears5/github-action-auto-create-collabs@v1.0.0
         with:
           REPOSITORIES: |
             username/repo@master
