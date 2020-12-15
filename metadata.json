@@ -1,0 +1,11 @@
+{
+    "description": "Github Action to auto create collaboration invites across repositories",
+    "homepage": "https://github.com/kbrashears5/github-action-auto-create-collabs",
+    "keywords": [
+        "auto",
+        "create",
+        "collabs",
+        "collaboration",
+        "action"
+    ]
+}

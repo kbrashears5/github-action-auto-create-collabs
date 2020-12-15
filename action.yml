@@ -1,0 +1,21 @@
+name: 'Auto Create Collabs'
+description: 'Github Action to auto create collaboration invites across repositories'
+author: 'kbrashears5'
+branding:
+  icon: 'upload-cloud'
+  color: 'purple'
+inputs:
+  REPOSITORIES:
+    description: 'List of repositories to create invites for. Default will be all public repositories'
+    required: true
+    default: 'ALL'
+  USERS:
+    description: 'List of users to invite'
+    required: true
+  TOKEN:
+    description: 'Personal access token with Repo privileges'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
