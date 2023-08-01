@@ -1,15 +1,7 @@
-<h1 align="center">github-action-auto-create-collabs</h1>
-
-
-<div align="center">
-
-<b>Github Action to auto create collaboration invites across repositories</b>
+# github-action-auto-create-collabs
+Github Action to auto create collaboration invites across repositories
 
 [![version](https://img.shields.io/github/v/release/kbrashears5/github-action-auto-create-collabs)](https://img.shields.io/github/v/release/kbrashears5/github-action-auto-create-collabs)
-[![Build Status](https://dev.azure.com/kbrashears5/github/_apis/build/status/kbrashears5.github-action-auto-create-collabs?branchName=master)](https://dev.azure.com/kbrashears5/github/_build/latest?definitionId=32&branchName=master)
-
-</div>
-
 
 # Use Cases
 Auto create collaboration invites to the users specified to any new or old repositories. Useful for managing a team or for managing a second bot account
